@@ -51,5 +51,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'opal-rails'
 gem 'opal-browser'
-gem 'hyper-react'
+gem 'hyper-react', github: 'ruby-hyperloop/hyper-react'
 gem 'therubyracer', platforms: :ruby
