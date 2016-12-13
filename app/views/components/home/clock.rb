@@ -33,7 +33,9 @@ module Components
 
       def render
         div do
-          "Home::Clock"
+          h1 { "Click me" }.on(:click) {
+            alert "clicked"
+          }
         end
       end
     end
