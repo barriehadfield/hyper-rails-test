@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/ruby-hyperloop/hyper-react.git
+  revision: 66bb929df803001a89d3adb062ef234a9fd9218a
+  specs:
+    hyper-react (0.10.0)
+      opal (>= 0.8.0)
+      opal-activesupport (>= 0.2.0)
+      react-rails
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -63,10 +72,6 @@ GEM
     hike (1.2.3)
     hyper-rails (0.4.0)
       rails (>= 4.0.0)
-    hyper-react (0.10.0)
-      opal (>= 0.8.0)
-      opal-activesupport (>= 0.2.0)
-      react-rails
     i18n (0.7.0)
     jbuilder (2.6.1)
       activesupport (>= 3.0.0, < 5.1)
@@ -207,7 +212,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   hyper-rails
-  hyper-react
+  hyper-react!
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
